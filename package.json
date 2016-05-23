@@ -1,7 +1,7 @@
 {
   "name": "chosen-bootstrap-theme",
   "version": "0.9.0",
-  "description": "A chosen select bootstrap theme that actually looks like bootstrap",
+  "description": "A Chosen select Bootstrap theme that actually looks like Bootstrap",
   "main": "dist/chosen-bootstrap-theme.js",
   "directories": {},
   "repository": {
@@ -22,14 +22,13 @@
     "url": "https://github.com/westonganger/chosen-bootstrap-theme/issues"
   },
   "homepage": "https://github.com/westonganger/chosen-bootstrap-theme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "gulp": "*",
     "gulp-sass": "*",
     "pump": "*",
     "del": "*",
     "gulp-rename": "*",
-    "gulp-release-it": "~1"
+    "gulp-release-it": "westonganger/gulp-release"
   }
 }
