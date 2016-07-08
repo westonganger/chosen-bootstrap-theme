@@ -1,7 +1,7 @@
 {
   "name": "chosen-bootstrap-theme",
   "version": "1.0.0",
-  "description": "A Chosen select Bootstrap theme that actually looks like Bootstrap.",
+  "description": "A Bootstrap theme for Chosen Select that actually looks like Bootstrap.",
   "main": "dist/chosen-bootstrap-theme.min.js",
   "directories": {},
   "repository": {
