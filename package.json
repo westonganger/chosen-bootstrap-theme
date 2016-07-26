@@ -1,8 +1,10 @@
 {
   "name": "chosen-bootstrap-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Bootstrap theme for Chosen Select that actually looks like Bootstrap",
-  "main": "dist/chosen-bootstrap-theme.min.css",
+  "main": [
+    "dist/chosen-bootstrap-theme.min.css"
+  ],
   "directories": {},
   "repository": {
     "type": "git",
