@@ -5,7 +5,7 @@ A Bootstrap theme for Chosen Select that actually looks like Bootstrap.
 
 # Install
 
-#### Yarm, NPM, or Bower
+#### Yarn, NPM, or Bower
 ```
 yarn add chosen-material-theme
 
