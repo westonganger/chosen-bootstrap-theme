@@ -5,11 +5,13 @@ A Bootstrap theme for Chosen Select that actually looks like Bootstrap.
 
 # Install
 
-#### Bower or NPM
+#### Yarm, NPM, or Bower
 ```
-bower install chosen-bootstrap-theme
+yarn add chosen-material-theme
 
-npm install chosen-bootstrap-theme
+npm install chosen-material-theme
+
+bower install chosen-material-theme
 ```
 
 #### Rails
