@@ -1,5 +1,5 @@
 /* 
- *  chosen-bootstrap-theme - v1.0.2
+ *  chosen-bootstrap-theme - v1.0.5
  *  Author: Weston Ganger (GitHub: @westonganger)
  *  Homepage: https://github.com/westonganger/chosen-bootstrap-theme
  */
@@ -42,12 +42,17 @@
 
   .chosen-drop {
     background-color: #FFF;
-    border: 1px solid #CCC;
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: none; // to fix chosen-js
     border-radius: 4px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
     background-clip: padding-box;
-    margin: 2px 0 0;
+    margin: 1px 0 0 0;
+    padding-top: 1px;
+  }
+
+  &.chosen-with-drop .chosen-drop{
+    border: 1px solid #CCC;
+    border: 1px solid rgba(0, 0, 0, 0.15);
   }
 
   .chosen-search input[type=text] {
